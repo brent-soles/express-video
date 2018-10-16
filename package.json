@@ -1,0 +1,25 @@
+{
+  "name": "express-video",
+  "version": "1.0.0",
+  "description": "An express server that streams video to a client",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "NODE_ENV=developement nodemon index.js"
+  },
+  "repository": "git+https://github.com/brent-soles/express-video.git",
+  "keywords": [
+    "video"
+  ],
+  "author": "Brent Soles",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brent-soles/express-video/issues"
+  },
+  "homepage": "https://github.com/brent-soles/express-video#readme",
+  "private": false,
+  "dependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^1.18.4"
+  }
+}
